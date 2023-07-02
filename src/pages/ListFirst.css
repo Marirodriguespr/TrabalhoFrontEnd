@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    background-color: rgb(204, 225, 236);
+    height: 100%;
+    width: 100%;
+    gap: 15px;
+}
+
+header {
+    background-color: black;
+}
+
+header h1 {
+    font-size: 20px;
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 50px;
+}
+
+.card {
+    cursor: pointer;
+}
+
+.image {
+    width: 300px;
+}
